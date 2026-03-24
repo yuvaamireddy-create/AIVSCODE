@@ -25,4 +25,5 @@ test('Login and add iPhone X to cart', async ({ page }) => {
   await expect(page.getByText(/Checkout \( 1 \)/)).toBeVisible({ timeout: 10000 });
 });
 
+// This code created using MCP server.
 
